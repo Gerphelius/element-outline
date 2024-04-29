@@ -1,0 +1,18 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  position: relative;
+  padding: 20px;
+}
+
+.card-example {
+  color: white;
+  background-color: cadetblue;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card-example h4 {
+  margin-bottom: 10px;
+}
